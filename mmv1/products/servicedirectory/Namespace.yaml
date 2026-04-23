@@ -22,6 +22,7 @@ references:
   api: 'https://cloud.google.com/service-directory/docs/reference/rest/v1/projects.locations.namespaces'
 docs:
 base_url: '{{name}}'
+supports_request_id: true
 self_link: '{{name}}'
 create_url: 'projects/{{project}}/locations/{{location}}/namespaces?namespaceId={{namespace_id}}'
 update_verb: 'PATCH'
