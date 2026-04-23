@@ -20,6 +20,7 @@ references:
   api: 'https://cloud.google.com/network-connectivity/docs/reference/networkconnectivity/rest/v1/projects.locations.spokes'
 docs:
 base_url: 'projects/{{project}}/locations/{{location}}/spokes'
+supports_request_id: true
 self_link: 'projects/{{project}}/locations/{{location}}/spokes/{{name}}'
 create_url: 'projects/{{project}}/locations/{{location}}/spokes?spokeId={{name}}'
 update_verb: 'PATCH'

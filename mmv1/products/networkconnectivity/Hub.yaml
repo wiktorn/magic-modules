@@ -20,6 +20,7 @@ references:
   api: 'https://cloud.google.com/network-connectivity/docs/reference/networkconnectivity/rest/v1beta/projects.locations.global.hubs'
 docs:
 base_url: 'projects/{{project}}/locations/global/hubs'
+supports_request_id: true
 self_link: 'projects/{{project}}/locations/global/hubs/{{name}}'
 create_url: 'projects/{{project}}/locations/global/hubs?hubId={{name}}'
 update_verb: 'PATCH'
