@@ -46,6 +46,7 @@ examples:
     test_vars_overrides:
       'network_name': 'acctest.BootstrapSharedServiceNetworkingConnection(t, "default-vpc")'
 autogen_async: true
+supports_request_id: true
 async:
   operation:
     timeouts:
